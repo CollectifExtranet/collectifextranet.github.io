@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin: initial;
+  }
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 7em;
+  color: lightgray;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 3.5em;
+  margin: 2em 0 1em;
+}
+
+h3 {
+  font-size: 2.5em;
+  margin-top: 0.4em;
+  margin-bottom: 0;
+  border-top: 1px solid;
+  padding: 0.4em 0 0.3em;
+}
+
+.intro {
+  font-size: 1.3em;
+}
+
+a {
+  color: black;
+  font-family: serif;
+  font-style: italic;
+}
+
+.project {
+  margin-bottom: 7em;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-link {
+  font-size: 1.7em;
+  font-style: italic;
+}
+
+.team {
+  font-size: 1.5em;
+  word-spacing: 3em;
+  margin: 1em 0;
+  padding-bottom: 2em;
+  border-bottom: 1px solid;
+}
