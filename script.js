@@ -52,7 +52,7 @@ function updateSlide(slider) {
 	}
 
 	const video = slider.items[ slider.currentIndex ].querySelector('video');
-	if(video) {
+	if(video && video.currentTime === 0) {
 		video.volume = 0;
 		video.play();
 	}
