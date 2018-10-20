@@ -16,7 +16,7 @@ h1 {
   color: #01953c;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
-  /* font-style: italic; */
+  font-style: italic;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h3 {
 }
 
 a {
-  color: black;
+  color: #01953c;
   font-family: serif;
   font-style: italic;
 }
